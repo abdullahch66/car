@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>toyota Altis Booking</title>
+  <style>
+   :root {
+      --primary-color: #ef4444;
+      --secondary-color: #f1f5f9;
+      --accent-color: #2e7d32;
+      --text-color: #1f2937;
+      --bg-color: #f9fafb;
+      --border-radius: 14px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.7;
+    }
+
+
+     .header {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: linear-gradient(to right, #dc2626, #ef4444);
+      color: white;
+    }
+
+    .header h2 {
+      font-size: 34px;
+      margin-bottom: 15px;
+    }
+
+    .header p {
+      font-size: 18px;
+      margin-bottom: 25px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      opacity: 0.95;
+    }
+
+    .book-btn {
+      padding: 14px 36px;
+      background-color: #ffffff;
+      color: var(--primary-color);
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      font-size: 18px;
+    }
+
+    .book-btn:hover {
+      background-color: #e0e7ff;
+    }
+
+    .main-container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1300px;
+      margin: 60px auto;
+      background-color: #ffffff;
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+    }
+
+    .left-section {
+      flex: 1;
+      min-width: 400px;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+      border-right: 1px solid #e5e7eb;
+    }
+
+    .left-section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    }
+
+    .right-section {
+      flex: 1;
+      min-width: 400px;
+      display: flex;
+      flex-direction: column;
+      background-color: #f9fafb;
+    }
+
+    .tab-header {
+      padding: 20px 40px;
+      background-color: var(--secondary-color);
+      font-size: 24px;
+      font-weight: bold;
+      color: var(--primary-color);
+      border-bottom: 2px solid var(--primary-color);
+    }
+
+    .tab-content {
+      padding: 50px 40px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .tab-content p {
+      margin: 24px 0;
+      font-size: 22px;
+      font-weight: 500;
+    }
+
+    .tab-content p strong {
+      color: #111827;
+      font-size: 23px;
+    }
+
+    .call-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: var(--accent-color);
+      color: white;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .call-button:hover {
+      background-color: #218838;
+    }
+
+    @media (max-width: 768px) {
+      .main-container {
+        flex-direction: column;
+        margin: 20px;
+      }
+
+      .left-section {
+        border-right: none;
+        border-bottom: 1px solid #e5e7eb;
+      }
+
+      .tab-content {
+        padding: 30px;
+      }
+
+      .tab-content p {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h2>Book the for your next adventure or family trip</h2>
+    <h3>Experience comfort and reliability with the Toyota Corolla Altis  – a spacious 6-seater family car designed for city rides and long adventures. Book now and travel in style.</h3><br>
+    <a href="book.html" class="book-btn">Book Now</a>
+  </div>
+
+  <div class="main-container">
+    <div class="left-section">
+        <img src="assets/img/toyota atis.jpeg" alt="Honda BRV" />
+    </div>
+    <div class="right-section">
+      <div class="tab-header">Car Details</div>
+      <div class="tab-content">
+        <p><strong> Registration:</strong> Toyota Corolla Altis </p>
+        <p><strong>Classification:</strong> Family car</p>
+        <p><strong>Passenger seats:</strong> 6</p>
+        <p><strong>Transmission:</strong> Automatic</p>
+        <p><strong>Fuel Type:</strong> Petrol</p>
+        <p><strong>AC:</strong> Yes, Dual Climate</p>
+         <p><strong>Model:</strong> 2021-2025</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Call Button -->
+  <a href="https://wa.me/923000857788" class="call-button" target="_blank">📞</a>
+
+</body>
+</html>

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Cars - Rent a Car</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+       body {
+            background-color: #f8f9fa;
+            padding: 40px 0;
+        }
+    
+        .single-offers {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            margin-bottom: 30px;
+            transition: transform 0.3s;
+        }
+    
+        .single-offers:hover {
+            transform: translateY(-30px);
+        }
+    
+        .offer-image img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            transition: transform 2s ease;
+            transform: rotateY(0deg);
+        }
+    
+        .offer-image:hover img {
+            transform: rotateY(360deg);
+        }
+    
+        .offer-text {
+            padding: 20px;
+        }
+    
+        .offer-text h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+    
+        .offer-text h4 {
+            color: #28a745;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+    
+        .offer-text ul {
+            padding: 0;
+            list-style: none;
+            margin-bottom: 15px;
+        }
+    
+        .offer-text ul li {
+            font-size: 14px;
+            color: #555;
+        }
+    
+        .offer-action a {
+            display: inline-block;
+            margin-right: 10px;
+            margin-top: 10px;
+            padding: 8px 16px;
+            border-radius: 30px;
+            font-size: 14px;
+            text-decoration: none;
+        }
+    
+        .offer-btn-1 {
+            background: #007bff;
+            color: #fff;
+        }
+    
+        .offer-btn-2 {
+            background: #6c757d;
+            color: #fff;
+        }
+    
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    
+        .section-title h2 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="section-title">
+    <h1 style="text-align:center;font-size:3rem;margin-top:30px;font-family:'Georgia',serif;background:linear-gradient(to right,#ff7e00,#ffa500);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-shadow:1px 1px 2px rgba(0,0,0,0.2);">Royale rides instead of luxury</h1>
+
+            <h2>Our Available Cars</h2>
+            <h3>Choose the car that suits your journey!</h3>
+        </div>
+
+        <div class="row">
+
+            <!-- Honda Civic RS Turbo -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-offers">
+                    <div class="offer-image">
+                        <a href="Audi A6.html"><img src="assets/img/odia6.jpg" alt="Honda Civic RS Turbo"></a>
+                    </div>
+                    <div class="offer-text">
+                        <a href="Audi A6.html"><h3>Audi A6</h3></a>
+                        
+                        <div class="offer-action">
+                            <a href="Audi A6.html" class="offer-btn-1">Rent Car</a>
+                            <a href="Audi A6.html" class="offer-btn-2">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Toyota Fortuner -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-offers">
+                    <div class="offer-image">
+                        <a href="toyata fortuener.html"><img src="assets/img/toyota fortuner.jpeg" alt="Toyota Fortuner"></a>
+                    </div>
+                    <div class="offer-text">
+                        <a href="toyata fortuener.html"><h3>Toyota Fortuner</h3></a>
+                        
+                      
+                        <div class="offer-action">
+                            <a href="toyata fortuener.html" class="offer-btn-1">Rent Car</a>
+                            <a href="toyata fortuener.html" class="offer-btn-2">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Toyota Land Cruiser -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-offers">
+                    <div class="offer-image">
+                        <a href="toyata landcrusor.html"><img src="assets/img/land curser.jpg" alt="Toyota Land Cruiser"></a>
+                    </div>
+                    <div class="offer-text">
+                        <a href="toyata landcrusor.html"><h3>Toyota Land Cruiser</h3></a>
+                        
+                        <div class="offer-action">
+                            <a href="toyata landcrusor.html" class="offer-btn-1">Rent Car</a>
+                            <a href="toyata landcrusor.html" class="offer-btn-2">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Toyota Prado -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-offers">
+                    <div class="offer-image">
+                        <a href="toyata pardo.html"><img src="assets/img/pardao.jpg" alt="Toyota Prado"></a>
+                    </div>
+                    <div class="offer-text">
+                        <a href="toyata pardo.html"><h3>Toyota Prado</h3></a>
+                      
+                        <div class="offer-action">
+                            <a href="toyata pardo.html" class="offer-btn-1">Rent Car</a>
+                            <a href="toyata pardo.html" class="offer-btn-2">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- maymatch -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-offers">
+                    <div class="offer-image">
+                        <a href="Mercedes Maybach.html"><img src="assets/img/maybach.png" alt="maybach"></a>
+                    </div>
+                    <div class="offer-text">
+                        <a href="Mercedes Maybach.html"><h3> Mercedes Maybach</h3></a>
+                        
+                        <div class="offer-action">
+                            <a href="Mercedes Maybach.html" class="offer-btn-1">Rent Car</a>
+                            <a href="Mercedes Maybach.html" class="offer-btn-2">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Toyota GLI -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-offers">
+                    <div class="offer-image">
+                        <a href="Toyota-Revo.html"><img src="assets/img/rip.jpg" alt="Toyota GLI"></a>
+                    </div>
+                    <div class="offer-text">
+                        <a href=""><h3>Toyota Revo</h3></a>
+                        
+                        <div class="offer-action">
+                            <a href="Toyota-Revo.html" class="offer-btn-1">Rent Car</a>
+                            <a href="toyata hiace.html" class="offer-btn-2">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sportage -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-offers">
+                    <div class="offer-image">
+                        <a href="sportage.html"><img src="assets/img/sporatge.jpg" alt="Sportage"></a>
+                    </div>
+                    <div class="offer-text">
+                        <a href="sportage.html"><h3> KIA Sportage</h3></a>
+                        
+                       
+                        <div class="offer-action">
+                            <a href="#" class="offer-btn-1">Rent Car</a>
+                            <a href="#" class="offer-btn-2">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+
+          
+
+
+            <!-- Limousine -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-offers">
+                    <div class="offer-image">
+                        <a href="limousin.html"><img src="assets/img/Limousin.jpg" alt="Limousine"></a>
+                    </div>
+                    <div class="offer-text">
+                        <a href="limousin.html"><h3>Limousine</h3></a>
+                        
+                    
+                        <div class="offer-action">
+                            <a href="limousin.html" class="offer-btn-1">Rent Car</a>
+                            <a href="limousin.html" class="offer-btn-2">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+
+ 
+            <!-- Mercedes -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-offers">
+                    <div class="offer-image">
+                        <a href="mercedes.html"><img src="assets/img/Mercedis.jpg" alt="Mercedes"></a>
+                    </div>
+                    <div class="offer-text">
+                        <a href="mercedes.html"><h3>Mercedes</h3></a>
+                        
+                        <div class="offer-action">
+                            <a href="mercedes.html" class="offer-btn-1">Rent Car</a>
+                            <a href="mercedes.html" class="offer-btn-2">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- row -->
+    </div> <!-- container -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

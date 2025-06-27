@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Toyota Prado Booking</title>
+  <style>
+    :root {
+      --primary-color: #ef4444;
+      --secondary-color: #f1f5f9;
+      --accent-color: #2e7d32;
+      --text-color: #1f2937;
+      --bg-color: #f9fafb;
+      --border-radius: 14px;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.7;
+    }
+
+   .header {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: linear-gradient(to right, #dc2626, #ef4444);
+      color: white;
+    }
+
+
+    .header h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .header p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .book-btn {
+      padding: 12px 30px;
+      background-color: white;
+      color: var(--primary-color);
+      font-weight: 600;
+      border-radius: 8px;
+      font-size: 16px;
+      text-decoration: none;
+      border: none;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: background 0.3s ease;
+    }
+
+    .book-btn:hover {
+      background-color: #e0e7ff;
+    }
+
+    .main-container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1100px;
+      margin: 40px auto;
+      background-color: white;
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    .left-section {
+      flex: 1;
+      min-width: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .left-section img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .right-section {
+      flex: 1;
+      min-width: 400px;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+    }
+
+    .tabs {
+      display: flex;
+      border-bottom: 2px solid var(--primary-color);
+    }
+
+    .tab {
+      flex: 1;
+      padding: 18px;
+      text-align: center;
+      font-weight: 600;
+      color: var(--primary-color);
+      font-size: 17px;
+    }
+
+    .tab-content {
+      padding: 30px 40px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tab-content p {
+      margin: 12px 0;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .tab-content p strong {
+      color: #111827;
+      font-size: 19px;
+    }
+
+    .call-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: var(--accent-color);
+      color: white;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .call-button:hover {
+      background-color: #059669;
+    }
+
+    @media (max-width: 768px) {
+      .main-container {
+        flex-direction: column;
+        margin: 20px;
+      }
+
+      .left-section {
+        border-bottom: 1px solid #e5e7eb;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h2>Ride Comfortably with Toyota Prado</h2>
+    <h3>
+      Experience the power and luxury of the Toyota Prado—ideal for long-distance travel, VIP rides, or off-road exploration. Book now for a premium journey!
+    </h3><br>
+    <a href="book.html" class="book-btn">Book Now</a>
+  </div>
+
+  <div class="main-container">
+    <div class="left-section">
+      <img src="assets/img/pardao.jpg" alt="Toyota Prado" />
+    </div>
+    <div class="right-section">
+      <div class="tabs">
+        <div class="tab">Car Details</div>
+      </div>
+      <div class="tab-content">
+        <p><strong>Model / Registration:</strong> Toyota Prado </p>
+        <p><strong>Classification:</strong> Luxury SUV</p>
+        <p><strong>Passenger Seats:</strong> 7</p>
+        <p><strong>Transmission:</strong> Automatic</p>
+        <p><strong>Fuel Type:</strong> Diesel</p>
+        <p><strong>AC:</strong> Yes, Dual Zone Climate Control</p>
+        <p><strong>Model:</strong>2021-2025</p>
+      </div>
+    </div>
+  </div>
+
+  <a href="https://wa.me/923000857788" class="call-button" target="_blank">📞</a>
+
+</body>
+</html>
